@@ -1,0 +1,143 @@
+.nav-div {
+    display: flex;
+    justify-content: flex-end;
+    /* margin-top: 30px; */
+    background-color: peru;
+    padding: 22px 0px;
+    width: 100vw;
+    position: fixed;
+
+}
+
+nav {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+a {
+    padding: 0px 50px;
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+}
+
+a :hover {
+    color: gray;
+}
+
+#sel {
+    background-color: transparent;
+    border: 0px;
+    font-size: large;
+}
+
+.section1 {
+    display: flex;
+    position: relative;
+    top: 3.5rem;
+    /* width: 100%; */
+
+}
+
+section {
+    display: block;
+}
+
+.desc {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    padding: 0px 80px;
+    margin: 10px;
+}
+
+div {
+    display: block;
+}
+
+.pd {
+    padding: 7px 0px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.photo {
+    width: 50%;
+    padding-right: 50px ;
+}
+
+.div-img {
+    display: flex;
+    justify-content: center;
+
+}
+
+.i-img {
+    width: 40px;
+    height: 40px;
+    padding: 10px 20px;
+}
+
+.section2 {
+    position: relative;
+    top: 4rem;
+    background-color: gray;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+}
+
+.section2 button {
+    border: none;
+    padding: 1%;
+    font-size: 110%;
+    color: black;
+    margin: 2%;
+    border-radius: 5px;
+}
+
+footer {
+    position: relative;
+    top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+footer {
+    display: block;
+}
+
+footer div {
+    text-align: center;
+    color: wheat;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
